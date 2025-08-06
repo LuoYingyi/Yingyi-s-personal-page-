@@ -86,7 +86,7 @@ work:
     company_logo: ''
     date_start: 2025-07-01
     date_end: 
-    summary: |2-
+    summary: |
       Designed and implemented a multi-agent large language model platform for financial analysis with specialized AI roles.
       Engineered privacy-compliant, fully local LLM system using Qwen, LLaMA3, and other models without cloud dependency.
 
