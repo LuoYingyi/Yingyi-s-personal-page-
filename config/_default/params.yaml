@@ -35,7 +35,10 @@ header:
     show_search: true
     show_theme_chooser: true
     logo:
-      text: "Your Name"
+      text: "Yingyi Luo Webpage"
+      url: "/"        # 可选，点击logo返回首页
+      alt_text: "Yingyi Luo Logo"  # 可选，logo图片的替代文字
+
 
 # Site footer
 footer:
