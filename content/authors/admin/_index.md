@@ -10,8 +10,10 @@ first_name: Caroline
 last_name: Luo
 
 # Status emoji
+#status:
+  #icon: ☕️
 status:
-  icon: ☕️
+  icon_image: "assets/media/images/my_logo.png"
 
 # Is this the primary user of the site?
 superuser: true
