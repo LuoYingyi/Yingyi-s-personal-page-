@@ -1,5 +1,5 @@
 ---
-title: "TradingAgents: A Multi-Agent LLM Framework for Financial Trading"
+title: "AI TradingAgents"
 date: 2025-07-28
 external_link: "https://github.com/LuoYingyi/TradingAgents"
 tags:
