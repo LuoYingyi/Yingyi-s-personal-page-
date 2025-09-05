@@ -35,3 +35,4 @@ tags:
   from tradingagents.graph.trading_graph import TradingAgentsGraph
   ta = TradingAgentsGraph()
   result = ta.propagate("NVDA", "2024-05-10")
+---
