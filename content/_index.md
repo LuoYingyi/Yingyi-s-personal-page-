@@ -40,6 +40,8 @@ sections:
         Some highlights include developing a multi-agent large language model platform for financial workflows, designing DCT-based neural networks for signal reconstruction at Fermilab, and creating models to predict AlN sputtering parameters for material science applications.
         
         I am passionate about building AI systems that are not only technically robust but also impactful in real-world domains. I’m always open to collaborations and discussions around AI, data science, and quantitative research 😃
+
+ <!--
     design:
       columns: '1'
   - block: collection
@@ -122,4 +124,5 @@ sections:
         # Card background color (CSS class)
         css_class: "bg-primary-700"
         css_style: ""
+-->
 ---
