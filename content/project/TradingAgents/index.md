@@ -1,7 +1,7 @@
 ---
-title: TradingAgents: A Multi-Agent LLM Framework for Financial Trading
+title: "TradingAgents: A Multi-Agent LLM Framework for Financial Trading"
 date: 2025-07-28
-external_link: https://github.com/LuoYingyi/TradingAgents
+external_link: "https://github.com/LuoYingyi/TradingAgents"
 tags:
   - Multi-Agent
   - LLM
@@ -9,6 +9,7 @@ tags:
   - Trading
   - LangGraph
   - Ollama
+draft: false
 ---
 
 **TradingAgents** is a multi-agent trading framework that mirrors a real-world research & execution desk. It decomposes the workflow into specialized LLM agents—**fundamental/news/sentiment/technical analysts**, **bull/bear reviewers**, **trader**, and **risk/portfolio manager**—and coordinates them to produce end-to-end trade decisions. The system is built on **LangGraph**, supports **Finnhub** market data, and can run with either cloud LLMs or **local models via Ollama**.
@@ -30,9 +31,8 @@ tags:
 - **Install:** `pip install -r requirements.txt`  
 - **Keys:** set `FINNHUB_API_KEY` (and `OPENAI_API_KEY` if using cloud LLMs)  
 - **CLI:** `python -m cli.main` to choose ticker, period, and models  
-- **Python:** 
-  ```python
-  from tradingagents.graph.trading_graph import TradingAgentsGraph
-  ta = TradingAgentsGraph()
-  result = ta.propagate("NVDA", "2024-05-10")
----
+- **Python:**
+```python
+from tradingagents.graph.trading_graph import TradingAgentsGraph
+ta = TradingAgentsGraph()
+result = ta.propagate("NVDA", "2024-05-10")
