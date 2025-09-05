@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
 title: ""
-date: 2022-10-24
+date: 2025-09-05
 type: landing
 
 design:
@@ -40,16 +40,16 @@ sections:
         Some highlights include developing a multi-agent large language model platform for financial workflows, designing DCT-based neural networks for signal reconstruction at Fermilab, and creating models to predict AlN sputtering parameters for material science applications.
         
         I am passionate about building AI systems that are not only technically robust but also impactful in real-world domains. I’m always open to collaborations and discussions around AI, data science, and quantitative research 😃
-  #   design:
-  #     columns: '1'
-  # - block: collection
-  #   id: papers
-  #   content:
-  #     title: Featured Publications
-  #     filters:
-  #       folders:
-  #         - publication
-  #       featured_only: true
+    design:
+      columns: '1'
+  - block: collection
+    id: papers
+    content:
+      title: Featured Publications
+      filters:
+        folders:
+          - publication
+        featured_only: true
   #   design:
   #     view: article-grid
   #     columns: 2

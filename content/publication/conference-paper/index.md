@@ -1,87 +1,80 @@
 ---
-title: 'An example conference paper'
+title: "AlN Sputtering Parameter Estimation Using A Multichannel Parallel DCT Neural Network"
 
 # Authors
-# If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here
-# and it will be replaced with their full name and linked to their profile.
+# If you have author profile folders under content/authors/, use their folder names instead.
 authors:
-  - admin
-  - Robert Ford
+  - Yingyi Luo
+  - Talha M. Khan
+  - Emadeldeen Hamdan
+  - Xin Zhu
+  - Hongyi Pan
+  - Didem Ozevin
+  - A. Enis Çetin
 
 # Author notes (optional)
-author_notes:
-  - 'Equal contribution'
-  - 'Equal contribution'
+author_notes: []
 
-date: '2013-07-01T00:00:00Z'
-doi: ''
+# Publication (paper) date – use the conference date so sorting works as expected.
+date: '2024-04-22T00:00:00Z'
+doi: '10.1109/VTS60656.2024.10538771'
 
 # Schedule page publish date (NOT publication's date).
-publishDate: '2017-01-01T00:00:00Z'
+# You can set this to now if you want it to appear on the site immediately.
+publishDate: '2024-04-22T00:00:00Z'
 
-# Publication type.
-# Accepts a single type but formatted as a YAML list (for Hugo requirements).
-# Enter a publication type from the CSL standard.
+# Publication type (CSL)
 publication_types: ['paper-conference']
 
 # Publication name and optional abbreviated publication name.
-publication: In *Hugo Blox Builder Conference*
-publication_short: In *ICW*
+publication: '2024 IEEE 42nd VLSI Test Symposium (VTS)'
+publication_short: 'IEEE VTS 2024'
 
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
+# Abstract – paste the official abstract text here.
+abstract: >
+  In this paper, we present a method for estimating the deposition parameters of the thin film material Aluminum Nitride (AIN) using a deep neural network. The neural network predicts the AIN orientations, which are critical for micromachining Micro-Electro-Mechanical Systems (MEMS) transducers such as accelerometers and acoustic emission sensors. The network features three parallel channels, each equipped with a Discrete Cosine Transform (DCT) based layer that encodes the input parameters into a latent space. This DCT layer applies a hard-thresholding nonlinearity to eliminate noise from the input parameters, resulting in a sparse representation of the latent space. Trained with a dataset comprising AlN orientations parameters and their optimal values, our model is adept at simultaneously extracting and integrating various essential frequency components. Experimental results underscore the effectiveness of our proposed approach in achieving accurate and comprehensive estimation of AlN orientations and MEMS design parameters, thereby providing a promising path for advanced optimization.
 
 # Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
+summary: > 
+  We propose a multichannel parallel DCT neural network to estimate key process
+  parameters in AlN sputtering from in-situ signals, aiming at faster calibration
+  and process control. 
 
 tags:
-  - Large Language Models
+  - AlN
+  - Sputtering
+  - Discrete Cosine Transform
+  - Neural Networks
+  - Process Parameter Estimation
 
 # Display this page in the Featured widget?
 featured: true
 
-# Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
+# Custom links (optional)
+# - name: Preprint
+#   url: https://...
+links: []
 
-url_pdf: ''
-url_code: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_dataset: 'https://github.com/HugoBlox/hugo-blox-builder'
+# URLs (add what you have; leave empty strings if none)
+url_pdf: ''            # e.g. 'uploads/AlN_DCTNN_VTS2024.pdf'
+url_code: ''           # e.g. 'https://github.com/...'
+url_dataset: ''
 url_poster: ''
 url_project: ''
 url_slides: ''
-url_source: 'https://github.com/HugoBlox/hugo-blox-builder'
-url_video: 'https://youtube.com'
+url_source: 'https://ieeexplore.ieee.org/document/10538771'
+url_video: ''
 
 # Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
+# Put featured.jpg/png in this page folder to show a thumbnail on the list page.
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  caption: ''
   focal_point: ''
   preview_only: false
 
 # Associated Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `internal-project` references `content/project/internal-project/index.md`.
-#   Otherwise, set `projects: []`.
-projects:
-  - example
+projects: []
 
-# Slides (optional).
-#   Associate this publication with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
-#   Otherwise, set `slides: ""`.
-slides: example
+# Slides (optional) – if you have a Markdown slide deck under content/slides/
+slides: ''
 ---
-
-{{% callout note %}}
-Click the _Cite_ button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-{{% /callout %}}
-
-{{% callout note %}}
-Create your slides in Markdown - click the _Slides_ button to check out the example.
-{{% /callout %}}
-
-Add the publication's **full text** or **supplementary notes** here. You can use rich formatting such as including [code, math, and images](https://docs.hugoblox.com/content/writing-markdown-latex/).
