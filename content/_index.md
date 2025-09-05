@@ -17,7 +17,7 @@ sections:
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
-        url: uploads/resume.pdf
+        url: uploads/resume yingyi.pdf
     design:
       css_class: dark
       background:
@@ -35,11 +35,11 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
+        My research focuses on machine learning, signal processing, and AI agents, with applications spanning neuroscience, material science, and financial analysis
 
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
+        Some highlights include developing a multi-agent large language model platform for financial workflows, designing DCT-based neural networks for signal reconstruction at Fermilab, and creating models to predict AlN sputtering parameters for material science applications.
         
-        Please reach out to collaborate 😃
+        I am passionate about building AI systems that are not only technically robust but also impactful in real-world domains. I’m always open to collaborations and discussions around AI, data science, and quantitative research 😃
     design:
       columns: '1'
   - block: collection

@@ -49,7 +49,7 @@ profiles:
     url: https://orcid.org/0009-0009-7789-9230
 
 interests:
-  - Artificial Intelligence and AI Agents
+  - Artificial Intelligence and Computer Engineeringg
   - Signal Processing and Image Processing
   - Large Langurage Models
 
@@ -60,7 +60,7 @@ education:
     date_end: 
     summary: |
           GPA: 3.7/4.0
-            Currently a PhD candidate focusing on machine learning applications in signal processing and AI agents. Research includes multi-agent LLM platforms and neural network optimization for hardware deployment. Published at IEEE VLSI Test Symposium and contributed to neuroscience ML projects.
+            Currently a PhD candidate focusing on machine learning applications in signal processing and LLMs. Research includes multi-agent LLM platforms and neural network optimization for hardware deployment. Published at IEEE VLSI Test Symposium and contributed to neuroscience ML projects.
     button:
       text: 'Read Thesis'
       url: 'https://ieeexplore.ieee.org/document/10538771'
